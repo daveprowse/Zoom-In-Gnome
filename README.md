@@ -9,6 +9,8 @@ Works on GNOME Shell 46-51.
 
 This extension is brand new (Nov, 2026) so if you have any issues please post them [here](https://github.com/daveprowse/Zoom-In-Gnome/issues).
 
+<img src="docs/demo.gif" width="700" alt="Z.I.G.Demo">
+
 ## Why this exists
 
 GNOME's built-in zoom magnifies every screen at once (by default). That's a problem if you present, teach,
