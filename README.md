@@ -5,6 +5,8 @@ pointer gets magnified, and every other monitor stays exactly as it was.
 
 Press **Super+Z** to zoom in, and press it again to zoom out.
 
+Works on GNOME Shell 46-51.
+
 This extension is brand new (Nov, 2026) so if you have any issues please post them [here](https://github.com/daveprowse/Zoom-In-Gnome/issues).
 
 ## Why this exists
