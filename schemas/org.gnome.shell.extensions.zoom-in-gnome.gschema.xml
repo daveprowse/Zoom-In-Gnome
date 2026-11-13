@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="zoom-in-gnome">
+  <schema id="org.gnome.shell.extensions.zoom-in-gnome" path="/org/gnome/shell/extensions/zoom-in-gnome/">
+
+    <key name="hotkey-zoom" type="as">
+      <default>["&lt;Super&gt;z"]</default>
+      <summary>Toggle zoom</summary>
+      <description>Zoom the monitor under the cursor in or out.</description>
+    </key>
+
+    <key name="hotkey-follow" type="as">
+      <default>["&lt;Super&gt;x"]</default>
+      <summary>Toggle follow</summary>
+      <description>While zoomed, pause or resume panning with the cursor.</description>
+    </key>
+
+    <key name="zoom-level" type="d">
+      <default>2.0</default>
+      <range min="1.25" max="8.0"/>
+      <summary>Zoom level</summary>
+      <description>Magnification factor applied to the zoomed monitor.</description>
+    </key>
+
+    <key name="zoom-duration-ms" type="i">
+      <default>250</default>
+      <range min="0" max="1000"/>
+      <summary>Zoom animation duration</summary>
+      <description>Duration of the zoom in and zoom out animation, in milliseconds.</description>
+    </key>
+
+    <key name="follow-smoothing" type="d">
+      <default>1.0</default>
+      <range min="0.05" max="1.0"/>
+      <summary>Follow smoothing</summary>
+      <description>How quickly the view catches up with the cursor. 1.0 keeps the content under the cursor exactly in sync (clicks land where you see them). Lower values glide more but the view lags behind the pointer.</description>
+    </key>
+
+    <key name="follow-default-on" type="b">
+      <default>false</default>
+      <summary>Follow the cursor when zooming in</summary>
+      <description>Whether the view starts out following the cursor each time you zoom in.</description>
+    </key>
+
+    <key name="software-cursor" type="b">
+      <default>true</default>
+      <summary>Software cursor while the view is fixed</summary>
+      <description>While zoomed with follow off, hide the system cursor and draw one at the magnified position, so clicks, dragging and highlighting land on what you see. Turn off if the pointer misbehaves.</description>
+    </key>
+
+    <key name="follow-cursor" type="s">
+      <default>'auto'</default>
+      <choices>
+        <choice value='auto'/>
+        <choice value='on'/>
+        <choice value='off'/>
+      </choices>
+      <summary>Drawn cursor while following</summary>
+      <description>Whether to draw our own cursor while the view follows the pointer. 'auto' does so on GNOME 49 and older, where the system cursor can disappear while zoomed, and uses the system cursor on GNOME 50 and newer.</description>
+    </key>
+
+  </schema>
+</schemalist>

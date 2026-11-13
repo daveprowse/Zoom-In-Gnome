@@ -1,0 +1,17 @@
+{
+  "uuid": "zoom-in-gnome@daveprowse.github.io",
+  "name": "Zoom In Gnome",
+  "description": "Zoom in the monitor your cursor is on with Super+Z. Other monitors stay untouched, which makes it handy for presenting, screen sharing and recording. Works on GNOME Shell 46-51 (Wayland and X11).",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.zoom-in-gnome",
+  "url": "https://github.com/daveprowse/zoom-in-gnome",
+  "version-name": "1.0",
+  "version": 1
+}
