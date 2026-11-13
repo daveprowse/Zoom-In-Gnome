@@ -1,13 +1,14 @@
 # Zoom In Gnome
 
-Zoom in on **one monitor** of your GNOME™ desktop with a single keystroke. The monitor under your
-pointer gets magnified, and every other monitor stays exactly as it was.
+Zoom in on **one monitor** of your GNOME™ desktop with a single keystroke. The monitor under your pointer gets magnified, and every other monitor stays exactly as it was.
 
 Press **Super+Z** to zoom in, and press it again to zoom out.
 
-Works on GNOME Shell 46-51.
+*Works on GNOME Shell 46-51.*
 
-This extension is brand new (Nov, 2026) so if you have any issues please post them [here](https://github.com/daveprowse/Zoom-In-Gnome/issues).
+[<img src="https://daveprowse.github.io/Draw-On-Gnome/images/gnome-extensions.png" height="100">](https://extensions.gnome.org/extension/11757/zoom-in-gnome/)
+
+> Note: This extension is brand new (Nov, 2026) so if you have any issues please post them [here](https://github.com/daveprowse/Zoom-In-Gnome/issues).
 
 <img src="docs/demo.gif" width="700" alt="Z.I.G.Demo">
 
@@ -51,15 +52,9 @@ GNOME 47, 48 and 50 should behave like their neighbors but have not been tested 
 
 ## Install
 
-**From the GNOME Extensions website (recommended).** Search for "Zoom In Gnome" on
-[extensions.gnome.org](https://extensions.gnome.org) or in the Extensions app, and switch it on.
+[<img src="https://daveprowse.github.io/Draw-On-Gnome/images/gnome-extensions.png" height="100">](https://extensions.gnome.org/extension/11757/zoom-in-gnome/)
 
-**From a release zip:**
-
-```bash
-gnome-extensions install --force zoom-in-gnome@daveprowse.github.io.zip
-gnome-extensions enable zoom-in-gnome@daveprowse.github.io
-```
+**From the GNOME Extensions website (recommended):** [Zoom In Gnome on extensions.gnome.org](https://extensions.gnome.org/extension/11757/zoom-in-gnome/)
 
 A newly installed extension is only loaded by a fresh shell, so log out and back in. On X11 up to
 GNOME 48 you can instead press `Alt+F2`, type `r` and press Enter.
